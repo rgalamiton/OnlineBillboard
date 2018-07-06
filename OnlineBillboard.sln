@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBillboard", "OnlineBillboard\OnlineBillboard.csproj", "{9719AF15-4E9A-48FD-9B71-435ECBF4B52A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9719AF15-4E9A-48FD-9B71-435ECBF4B52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9719AF15-4E9A-48FD-9B71-435ECBF4B52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9719AF15-4E9A-48FD-9B71-435ECBF4B52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9719AF15-4E9A-48FD-9B71-435ECBF4B52A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {162F5A3B-A3AC-4BEF-84F9-CCEBF011B54E}
+	EndGlobalSection
+EndGlobal

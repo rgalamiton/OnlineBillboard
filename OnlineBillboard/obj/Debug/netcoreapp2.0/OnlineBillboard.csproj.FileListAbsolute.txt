@@ -1,0 +1,11 @@
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\bin\Debug\netcoreapp2.0\OnlineBillboard.deps.json
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\bin\Debug\netcoreapp2.0\OnlineBillboard.runtimeconfig.json
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\bin\Debug\netcoreapp2.0\OnlineBillboard.runtimeconfig.dev.json
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\bin\Debug\netcoreapp2.0\OnlineBillboard.dll
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\bin\Debug\netcoreapp2.0\OnlineBillboard.pdb
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\obj\Debug\netcoreapp2.0\OnlineBillboard.csprojAssemblyReference.cache
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\obj\Debug\netcoreapp2.0\OnlineBillboard.csproj.CoreCompileInputs.cache
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\obj\Debug\netcoreapp2.0\OnlineBillboard.AssemblyInfoInputs.cache
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\obj\Debug\netcoreapp2.0\OnlineBillboard.AssemblyInfo.cs
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\obj\Debug\netcoreapp2.0\OnlineBillboard.dll
+C:\Users\Galamiton\source\repos\OnlineBillboard\OnlineBillboard\obj\Debug\netcoreapp2.0\OnlineBillboard.pdb

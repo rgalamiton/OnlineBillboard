@@ -1,0 +1,5 @@
+﻿{
+  "DefaultConnectionString": {
+    "DefaultConnectionString":  "server=(localdb)\\ProjectsV13;Database=bbDatabase;Integrated Security=true;MultipleActiveResultSets=true;"
+  }
+}
