@@ -13,10 +13,10 @@
     <div class="row">
         <div class="col-sm-10 center-block center-text">
             <!--THUMBNAILS-->
+            @foreach (var data in Model)
+            {
+                <ul class="list-inline">
 
-            <ul class="list-inline">
-                @foreach (var data in Model)
-                {
                     <li data-toggle="modal" data-target="#myModal">
                         <a href="#myCarousel" data-slide-to="0">
                             <img src="~/UploadedImages/@data.image" height="200" width="200"><br>
@@ -25,58 +25,57 @@
 
                     </li>
 
-                }
-            </ul>
+                    
+                </ul>
 
-            <div class="modal fade" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <div class="pull-left">My Gallery Title</div>
-                            <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
-                        </div>
-                        <div class="clearfix"></div>
-
-                        <div class="modal-body">
-                            <!--CAROUSEL CODE GOES HERE-->
-                            <div id="myCarousel" class="carousel slide" data-interval="false">
-                                <div class="carousel-inner">
-
-                                    <div class="item active">
-                                        @foreach (var data in Model)
-                                        {
-                                            <img src="~/UploadedImages/@data.image" alt="">
-                                            <div class="carousel-caption">
-                                                <h3>aaaaa</h3>
-                                                <p>aaan</p>
-                                            </div>
-                                        }
-                                    </div>
-
-
-
-                                    <!--end carousel-inner-->
-                                </div>
-                                <!--Begin Previous and Next buttons-->
-                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-                                <!--end carousel-->
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="pull-left">My Gallery Title</div>
+                                <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
                             </div>
-                            <!--end modal-body-->
-                        </div>
-
-                        <div class="modal-footer">
-                            <div class="pull-left"> <small>Placeholder Images from <a href="https://dummyimage.com" target="new">DummyImage.com</a></small> </div>
-                            <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
                             <div class="clearfix"></div>
-                            <!--end modal-footer-->
-                        </div>
-                        <!--end modal-content-->
-                    </div>
-                    <!--end modal-dialoge-->
-                </div>
-                <!--end myModal-->
-            </div>
 
+                            <div class="modal-body">
+                                <!--CAROUSEL CODE GOES HERE-->
+                                <div id="myCarousel" class="carousel slide" data-interval="false">
+                                    <div class="carousel-inner">
+
+                                        <div class="item active">
+                                          
+                                                <img src="~/UploadedImages/@data.image" alt="">
+                                                <div class="carousel-caption">
+                                                    <h3>aaaaa</h3>
+                                                    <p>aaan</p>
+                                                </div>
+                                            
+                                        </div>
+
+
+
+                                        <!--end carousel-inner-->
+                                    </div>
+                                    <!--Begin Previous and Next buttons-->
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+                                    <!--end carousel-->
+                                </div>
+                                <!--end modal-body-->
+                            </div>
+
+                            <div class="modal-footer">
+                                <div class="pull-left"> <small>Placeholder Images from <a href="https://dummyimage.com" target="new">DummyImage.com</a></small> </div>
+                                <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+                                <div class="clearfix"></div>
+                                <!--end modal-footer-->
+                            </div>
+                            <!--end modal-content-->
+                        </div>
+                        <!--end modal-dialoge-->
+                    </div>
+                    <!--end myModal-->
+                </div>
+            }
             <!--end col-->
         </div>
         <!--end row-->
